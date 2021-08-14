@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 20px;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* background-color: darkgray; */
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header .navigation {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-size: 20px;
+    display: flex;
+}
+
+.header .navigation ul li {
+    flex: 1 0 200px;
+    display: inline-block;
+    margin-left: 25px;
+    background-color: teal;
+    padding: 10px;
+}
+
+/*  */
+
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+    header {
+      background-color: #772014;
+    }
+  }
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    header {
+      background-color: #bb8588;
+    }
+  }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    header {
+      background-color: #8ac4ff;
+    }
+  }
